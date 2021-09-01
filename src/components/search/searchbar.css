@@ -1,0 +1,53 @@
+.container{
+    width: 200px;
+    height: 30px;
+    margin-left: 8px;
+   margin-right: 10px;
+   display: flex;
+   flex-direction: row;
+  
+}
+.body{margin-right: 4em;}
+
+input{
+
+    border:none;
+    font-size: medium;
+    flex:1;
+    padding: 10px 20px;
+}
+input:focus{
+    outline-width: 0px;
+}
+.ml-auto{
+    margin-top: 30px;
+}
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(26, 189, 243);
+    height:30px;
+    padding:10px 20px;
+    border-radius: 999px;
+    width: 85vw;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.search_inputs{
+  display:flex;
+  flex:1;
+}
+.button1{
+ margin: 0 auto;
+ margin-left: 290px;
+ margin-top: 15px;
+ margin-right: 4em;
+ text-transform: inherit;
+
+}
+button{text-transform: inherit;}
+
+.button:hover{
+   background-color: rgb(12, 171, 224);
+}
