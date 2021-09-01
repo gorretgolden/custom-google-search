@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react';
 import  API_KEY from '../keys';
 //this is a custom hook 
-const CONTEXT_KEY = "aaef2ee0f8f491ec8";
+const CONTEXT_KEY = "your search engine id";
 
 const useGoogleSearch = (term)=>{
     const [data, setData] = useState(null);
